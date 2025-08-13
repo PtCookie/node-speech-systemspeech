@@ -1,11 +1,10 @@
 import dotnet from "node-api-dotnet";
 
-const Console = dotnet.System.Console;
-const Speech = dotnet.System.Speech;
+import "./bin/System.Speech.js";
 
-Console.WriteLine("Hello from .NET!");
+const Synthesis = dotnet.System.Speech.Synthesis;
 
-const synthesizer = new Speech.Synthesis.SpeechSynthesizer();
+const synthesizer = new Synthesis.SpeechSynthesizer();
 const voices = synthesizer.GetInstalledVoices();
 
 console.log("Installed voices:", voices);

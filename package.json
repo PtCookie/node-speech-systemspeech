@@ -14,6 +14,7 @@
   },
   "type": "module",
   "main": "index.js",
+  "packageManager": "pnpm@10.12.4",
   "scripts": {
     "build": "dotnet build",
     "start": "node index.js"
