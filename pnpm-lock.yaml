@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      node-api-dotnet:
+        specifier: ^0.9.15
+        version: 0.9.15
+
+packages:
+
+  node-api-dotnet@0.9.15:
+    resolution: {integrity: sha512-xJjNRzxjovXpyDeIfg3ER1q7gGJNwRDV0Tvdb2scQBHqpHGrf5s2s9zexNn9wbVboxXpc0YOcOOzcfWjoUgG4A==}
+
+snapshots:
+
+  node-api-dotnet@0.9.15: {}

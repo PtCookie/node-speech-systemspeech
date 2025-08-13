@@ -1,0 +1,24 @@
+{
+  "name": "node-dotnet",
+  "version": "0.1.0",
+  "description": "Node.js module to invoke .NET function",
+  "keywords": [
+    "Node.js",
+    ".NET"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Minsup Ju",
+    "email": "me@ptcookie.net",
+    "url": "https://devlog.ptcookie.net/"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "dotnet build",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-api-dotnet": "^0.9.15"
+  }
+}
