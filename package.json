@@ -3,8 +3,9 @@
     "version": "0.1.0",
     "description": "Node.js module for speech synthesis using System.Speech on Windows.",
     "keywords": [
-        "Node.js",
-        ".NET"
+        "speech-synthesis",
+        "dotnet",
+        "nodejs"
     ],
     "license": "MIT",
     "author": {
