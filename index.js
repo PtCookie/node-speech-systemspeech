@@ -7,6 +7,6 @@ const Synthesis = dotnet.System.Speech.Synthesis;
 const synthesizer = new Synthesis.SpeechSynthesizer();
 const voices = synthesizer.GetInstalledVoices();
 
-console.log("Installed voices:", voices);
+console.log("Installed voices:", voices.length);
 
 synthesizer.Speak("Hello, World!");
