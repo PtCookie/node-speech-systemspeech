@@ -1,7 +1,7 @@
 {
-    "name": "node-dotnet",
+    "name": "node-speech-systemspeech",
     "version": "0.1.0",
-    "description": "Node.js module to invoke .NET function",
+    "description": "Node.js module for speech synthesis using System.Speech on Windows.",
     "keywords": [
         "Node.js",
         ".NET"
